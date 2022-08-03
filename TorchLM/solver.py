@@ -24,9 +24,9 @@ class Strategy:
 class StepEvaluator:
 	def __init__(self, referenceCost):
 		self.referenceCost = referenceCost
-		self.minimumCost = referenceCost;
-		self.currentCost = referenceCost;
-		self.candidateCost = referenceCost;
+		self.minimumCost = referenceCost
+		self.currentCost = referenceCost
+		self.candidateCost = referenceCost
 
 		self.accumulatedReferenceModelCostChange = 0
 		self.accumulatedCandidateModelCostChange = 0
